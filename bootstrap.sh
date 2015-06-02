@@ -22,7 +22,7 @@ npm install -g cordova
 npm install -g ionic
 expect -c '
 set timeout -1   ;
-spawn /home/vagrant/android-sdk-linux/tools/android update sdk -u --all --filter platform-tool,android-19,build-tools-19.1.0
+spawn /home/vagrant/android-sdk-linux/tools/android update sdk -u --all --filter platform-tool,android-22,build-tools-22.0.1
 expect { 
     "Do you accept the license" { exp_send "y\r" ; exp_continue }
     eof
